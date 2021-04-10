@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 5px;
+    color: var(--dark-gray);
+  }
+  .attribution a {
+    color: hsl(228, 49%, 38%);
+    font-size: 12px;
+    text-decoration: none;
+  }
