@@ -4,20 +4,63 @@
     box-sizing: border-box;
 }
 
-:root {
+    :root {
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
-}
-body{
-  background-color: var(--violet) ;
-}
-.attribution {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 30px;
-    padding: 15px 5px;
-    color: var(--dark-gray);
-  }
+     }
+
+    body {
+      background-image: url("images/bg-mobile.svg");
+      background-color: var(--violet) ;
+      background-repeat: no-repeat;
+      background-position: top;
+      }
+
+
+    nav {
+      width: 100%;
+      padding: 30px 15px; 
+      }
+
+    nav img {
+      height: 30px;
+      width: 150px;
+      }
+
+    
+
+    .image {
+      display: grid;
+      place-items: center;
+      }
+    .image img{
+      height: 200px;
+      width: 300px;
+      }
+      article{
+        width:100%;
+        padding: 0px 10px;
+        text-align: center;
+        margin: 15px 0px;
+      }
+      h2{
+        color: white;
+        font-family: "Poppins";
+        font-weight: 600;
+      }
+      p{
+        color: white; 
+        font-family: "Open Sans";
+        font-weight: 400;
+      }
+      
+    .attribution {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px 5px;
+      color: var(--dark-gray);
+      }
   .attribution a {
     color: hsl(228, 49%, 38%);
     font-size: 12px;
