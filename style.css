@@ -8,7 +8,9 @@
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
 }
-
+body{
+  background-color: var(--violet) ;
+}
 .attribution {
     font-size: 12px;
     text-align: center;
@@ -21,3 +23,4 @@
     font-size: 12px;
     text-decoration: none;
   }
+
